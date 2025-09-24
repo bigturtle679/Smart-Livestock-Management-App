@@ -1,12 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>livestock-hack</title>
+    <title>Smart Livestock Management App</title>
+
+    <!-- Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ✅ Tailwind Play CDN (instant styling fix for demo) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { display: ["Inter", "system-ui", "sans-serif"] },
+            colors: {
+              primary: { 600: "#4f46e5" },
+              accent: { 500: "#f97316" },
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Meta for SEO/demo -->
+    <meta
+      name="description"
+      content="Smart Livestock — predictive health monitoring with offline sync, multilingual support, and productivity insights."
+    />
   </head>
-  <body>
+  <body class="bg-slate-50 font-display antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

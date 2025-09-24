@@ -6,7 +6,7 @@
     "age_months": 36,
     "gender": "female",
     "vitals_history": [
-      {"ts": 1696280000000, "temp": 38.4, "hr": 78, "weight": 352, "feed_intake": 6.1}
+      { "ts": 1696280000000, "temp": 38.4, "hr": 78, "weight": 352, "feed_intake": 6.1 }
     ],
     "alerts": [],
     "synced": true
@@ -18,7 +18,7 @@
     "age_months": 28,
     "gender": "female",
     "vitals_history": [
-      {"ts": 1696280000000, "temp": 38.2, "hr": 76, "weight": 323, "feed_intake": 5.8}
+      { "ts": 1696280000000, "temp": 38.2, "hr": 76, "weight": 323, "feed_intake": 5.8 }
     ],
     "alerts": [],
     "synced": true
@@ -30,7 +30,31 @@
     "age_months": 18,
     "gender": "female",
     "vitals_history": [
-      {"ts": 1696280000000, "temp": 39.0, "hr": 110, "weight": 46, "feed_intake": 1.2}
+      { "ts": 1696280000000, "temp": 39.0, "hr": 110, "weight": 46, "feed_intake": 1.2 }
+    ],
+    "alerts": [],
+    "synced": true
+  },
+  {
+    "_id": "animal_004",
+    "tag": "E-1004",
+    "species": "buffalo",
+    "age_months": 42,
+    "gender": "male",
+    "vitals_history": [
+      { "ts": 1696280000000, "temp": 38.6, "hr": 70, "weight": 420, "feed_intake": 7.0 }
+    ],
+    "alerts": [],
+    "synced": true
+  },
+  {
+    "_id": "animal_005",
+    "tag": "E-1005",
+    "species": "sheep",
+    "age_months": 22,
+    "gender": "female",
+    "vitals_history": [
+      { "ts": 1696280000000, "temp": 39.1, "hr": 88, "weight": 65, "feed_intake": 2.5 }
     ],
     "alerts": [],
     "synced": true

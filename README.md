@@ -1,16 +1,23 @@
-# React + Vite
+# Smart Livestock Management App (Hackathon Prototype)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+What: Offline-first livestock vitals monitoring with simulated alerts, bilingual UI (English/Hindi), and productivity-focused UX.
 
-Currently, two official plugins are available:
+Tech: React + Vite, Tailwind CSS, PouchDB (offline), Framer Motion (animations), Lucide icons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Quick start (developer)
+```bash
+git clone <repo-url>
+cd Smart-Livestock-Management-App
+npm install
+npm run dev
+# open http://localhost:5173
 
-## React Compiler
+Open app, note header and animals count.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Click Simulate Fever on any card → vitals update and a CRITICAL alert appears.
 
-## Expanding the ESLint configuration
+Open Details → modal shows vitals history and alerts (press Esc or click outside to close).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Click Sync to mark as synced.
+
+Toggle language (English / हिन्दी) to show multilingual UI.
