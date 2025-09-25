@@ -1,23 +1,26 @@
-# Smart Livestock Management App (Hackathon Prototype)
+# Smart Livestock Management - Backend (Person B)
 
-What: Offline-first livestock vitals monitoring with simulated alerts, bilingual UI (English/Hindi), and productivity-focused UX.
+Backend services for data storage, alerts, simulation, and sync for the Smart Livestock app.
 
-Tech: React + Vite, Tailwind CSS, PouchDB (offline), Framer Motion (animations), Lucide icons.
+## Quick Start
 
-## Quick start (developer)
-```bash
-git clone <repo-url>
-cd Smart-Livestock-Management-App
-npm install
-npm run dev
-# open http://localhost:5173
+- Node 18+
+- Install deps: 
+up to date, audited 1 package in 576ms
 
-Open app, note header and animals count.
+found 0 vulnerabilities
+- Seed + run simulators and sync server: see scripts below
 
-Click Simulate Fever on any card → vitals update and a CRITICAL alert appears.
+## Scripts
+- : Run sync server with auto-reload
+- : Seed local PouchDB with sample animals
+- : Generate vitals for all animals once
+- : Run alert engine test harness
+- : Push unsynced docs to mock sync server once
 
-Open Details → modal shows vitals history and alerts (press Esc or click outside to close).
+## Structure
+-  seed JSON
+-  app code
+-  mock sync server
+-  tests and helpers
 
-Click Sync to mark as synced.
-
-Toggle language (English / हिन्दी) to show multilingual UI.
